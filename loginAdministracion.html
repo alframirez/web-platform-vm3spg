@@ -1,0 +1,82 @@
+<head>
+  <meta charset="UTF-8" />
+  <script src="script.js"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" , crossorigin="anonymous"></script>
+
+  <!-- Google fonts-->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" />
+</head>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #464265;">
+  <div class="container-fluid">
+    <button
+     class="navbar-toggler"
+     type="button"
+     data-bs-toggle="collapse"
+     data-bs-target="#navbarSupportedContent"
+     aria-controls="navbarSupportedContent"
+     aria-expanded="false"
+     aria-label="Toggle navigation"
+   >
+     <span class="navbar-toggler-icon"></span>
+   </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="row">
+          <div class="">
+            <li class="nav-item">
+              <a onclick="location.href='index.html'" style="color:#fff" class="nav-link active" aria-current="page"
+                href="#">
+                <h4>Panel Administrativo</h4>
+              </a>
+            </li>
+          </div>
+        </div>
+      </ul>
+
+      <button onclick="location.href='loginAdministracion.html'" class="btn " type="submit">
+        <img class="" src="https://raw.githubusercontent.com/alframirezg/clinica/c7b7d02ba3251c578053b393b2bc6dd9724c5064/usuario%20login%20(1).png" alt="" width="50" height="50">
+     </button>
+    </div>
+  </div>
+</nav>
+<!-- navbar -->
+
+<div class="row">
+  <div class="col-4"></div>
+  <div class="col-4">
+    <div class="text-center">
+      <img class="mb-4" src="https://raw.githubusercontent.com/alframirezg/clinica/c7b7d02ba3251c578053b393b2bc6dd9724c5064/usuario%20login%20(1).png" alt="" width="200" height="200">
+    </div>
+
+    <h1 class="h3 mb-3 font-weight-normal text-center">Ingrese sus datos de acceso</h1>
+    <label for="inputEmail" class="sr-only">Nombre se usuario</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Nombre de usuario" required="" autofocus="">
+    <label for="inputPassword" class="sr-only">Contraseña</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
+    <div class="text-center">
+      <label>
+    <div class="row text-center">
+    <a href="">¿Olvidaste tu contraseña?</a>
+    </div>
+    <a href="">¿Olvidaste tu nombre de usuario?</a>
+  </label>
+    </div>
+    <div class="text-center">
+      <button onclick="MensajeError(); location.href='principalAdministracion.html'"  class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+    </div>
+    <p class="mt-5 mb-3 text-muted text-center">©2021
+    </p>
+  </div>
+  <div class="col-4"></div>
+</div>
